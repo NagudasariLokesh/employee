@@ -44,7 +44,7 @@
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2026-05-22 15:23:38.701628",
+ "modified": "2026-05-23 18:33:35.958904",
  "modified_by": "Administrator",
  "module": "Employee Management",
  "name": "Employee Details",
@@ -67,5 +67,6 @@
  "rows_threshold_for_grid_search": 20,
  "sort_field": "creation",
  "sort_order": "DESC",
- "states": []
+ "states": [],
+ "title_field": "employee_name"
 }
