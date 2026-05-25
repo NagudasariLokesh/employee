@@ -2,6 +2,8 @@
 
 Employee Management System
 
+### udpate 25/05/2026
+
 ### Installation
 
 You can install this app using the [bench](https://github.com/frappe/bench) CLI:
