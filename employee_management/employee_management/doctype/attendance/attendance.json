@@ -7,7 +7,10 @@
  "engine": "InnoDB",
  "field_order": [
   "section_break_nkhd",
-  "name1"
+  "employee",
+  "date",
+  "in_time",
+  "out_time"
  ],
  "fields": [
   {
@@ -15,15 +18,39 @@
    "fieldtype": "Section Break"
   },
   {
-   "fieldname": "name1",
-   "fieldtype": "Data",
-   "label": "Name"
+   "fieldname": "employee",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Employee",
+   "options": "Employee Details",
+   "reqd": 1
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Date",
+   "reqd": 1
+  },
+  {
+   "fieldname": "in_time",
+   "fieldtype": "Time",
+   "in_list_view": 1,
+   "label": "In Time",
+   "reqd": 1
+  },
+  {
+   "fieldname": "out_time",
+   "fieldtype": "Time",
+   "in_list_view": 1,
+   "label": "Out Time",
+   "reqd": 1
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2026-05-23 18:15:54.234972",
+ "modified": "2026-05-25 11:06:39.250680",
  "modified_by": "Administrator",
  "module": "Employee Management",
  "name": "Attendance",

@@ -14,7 +14,10 @@ class Attendance(Document):
 	if TYPE_CHECKING:
 		from frappe.types import DF
 
-		name1: DF.Data | None
+		date: DF.Date
+		employee: DF.Link
+		in_time: DF.Time
+		out_time: DF.Time
 	# end: auto-generated types
 
 	pass
